@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/tvCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Invoice Rent Car Neibs"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvCarType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car Type : "
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvOutsideCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Outside City : "
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day Of Rent : "
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvDisscount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discount : "
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total : "
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+</LinearLayout>
